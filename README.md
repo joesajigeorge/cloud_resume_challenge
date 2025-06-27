@@ -6,12 +6,14 @@
 
 ## Project Structure
 
-/
-├── assets # Store Assets like Profile Picture
+```
+cloud_resume_challenge/
+├── assets/ # Store Assets like Profile Picture
 ├── index.html # About, Skills, Companies, Certifications
 ├── experience.html # Detailed Work Experience & Projects
 ├── contact.html # Resume Summary & Contact Information
 └── style.css # Main stylesheet
+```
 
 ---
 
