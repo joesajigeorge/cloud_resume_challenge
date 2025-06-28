@@ -25,7 +25,7 @@ cloud_resume_challenge/
 - **Responsive Design** (media queries)
 ---
 
-*Last updated: June 2025*
+*Last updated: 28 June 2025 20:02 AEDT*
 ---
 
 **Inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) and community projects.**
