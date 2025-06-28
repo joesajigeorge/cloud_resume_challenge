@@ -254,11 +254,6 @@ body {
   }
 }
 
-
-
-
-
-
 .skills-section {
   margin-top: 30px;
 }
@@ -300,4 +295,9 @@ body {
   height: 60px;
   object-fit: contain;
   margin-bottom: 10px;
+}
+
+.content ul {
+  padding-left: 40px;
+  margin-bottom: 1em;
 }

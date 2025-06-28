@@ -237,5 +237,15 @@
       </section>
     </main>
   </div>
+  <script>
+    document.querySelectorAll('.toc a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        if (this.getAttribute('href').startsWith('#')) {
+          document.querySelectorAll('.toc a').forEach(a => a.classList.remove('active'));
+          this.classList.add('active');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
