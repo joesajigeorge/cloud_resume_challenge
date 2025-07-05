@@ -1,31 +1,43 @@
-# Cloud DevOps Engineer Portfolio
+# Joe Saji George – DevOps Portfolio
 
-## In Progress
+Welcome to my personal portfolio website!  
+This project showcases my experience, skills, certifications, and projects as a DevOps Engineer.
 
 ---
 
 ## Project Structure
 
-```
-cloud_resume_challenge/
-├── assets/ # Store Assets like Profile Picture
-├── index.html # About, Skills, Companies, Certifications
-├── experience.html # Detailed Work Experience & Projects
-├── contact.html # Resume Summary & Contact Information
-└── style.css # Main stylesheet
-```
+my-portfolio/
+├── public/
+│   ├── profile.jpg        # Profile picture and other static assets
+│   └── icons/             # PNG icons for navigation and skills
+├── src/
+│   ├── assets/            # Additional images or assets
+│   ├── components/
+│   │   ├── Sidebar.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Company.jsx
+│   │   ├── Certifications.jsx
+│   │   ├── Experience.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx            # Main app component
+│   ├── main.jsx           # Entry point for React/Vite
+│   └── style.css          # Main stylesheet
+├── index.html             # HTML template used by Vite
+├── package.json           # Project metadata and scripts
+└── README.md              # Project documentation
 
 ---
 
-## Technologies
+## 📬 Contact
 
-- **HTML5**
-- **CSS3** (Grid, Flexbox)
-- **Font Awesome** (for icons)
-- **Responsive Design** (media queries)
+- **Email:** sajigeorge.joe@gmail.com
+- **LinkedIn:** [linkedin.com/in/joe-saji-george](https://linkedin.com/in/joe-saji-george)
+- **GitHub:** [github.com/joesajigeorge](https://github.com/joesajigeorge)
 ---
 
-*Last updated: 28 June 2025 20:02 AEDT*
+*Last updated: 06 July 2025 20:02 AEDT*
 ---
 
 **Inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) and community projects.**
