@@ -7,7 +7,7 @@ export default function Contact() {
       <section id="resumesummary" className="card card-margin">
         <h2>Resume Summary</h2>
         <p>
-          DevOps Engineer with 7+ years of experience designing and implementing scalable CI/CD pipelines, cloud-native infrastructure, and automated deployment solutions. I've helped global telecom clients scale securely and reliably. Currently in Sydney, Australia.
+          DevOps Engineer with 7+ years of experience designing and implementing scalable CI/CD pipelines, cloud-native infrastructure, and automated deployment solutions. Skilled in managing enterprise-grade cloud environments (AWS, Azure), Kubernetes clusters, and Infrastructure as Code using Terraform and Ansible. Proven success in collaborating with global clients on telecom, cloud migration, and cost optimization projects. Currently employed in Australia under a 482 TSS visa (valid through July 2025). Open to employer-sponsored opportunities and relocation.
         </p>
         <a href="/Resume_Joe_Saji_George.pdf" download className="resume-btn">Download Resume</a>
       </section>
