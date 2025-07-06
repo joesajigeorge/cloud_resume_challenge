@@ -7,9 +7,10 @@ const companies = [
     locations: "Sydney, Australia & Thiruvananthapuram, India",
     roles: "Senior Associate Consultant",
     contributions: [
-      "Migrated applications from on-premises to AWS cloud",
-      "Automated CI/CD pipelines using Jenkins",
-      "Reduced operational costs by 30% through optimization"
+      "CI/CD & Automation: Designed and maintained GitLab and Jenkins pipelines, automated infrastructure provisioning with Terraform and CloudFormation, and improved Ansible workflows using Ansible Tower and Automation Platform.",
+      "Kubernetes & Cloud: Managed Kubernetes workloads using EKS and Rancher, performed application re-platforming to AWS using AWS SAM, and improved reliability via GitOps with ArgoCD.",
+      "Monitoring & Incident Response: Set up monitoring dashboards with Grafana, Prometheus, and New Relic; handled production issues with proactive incident response and root cause analysis.",
+      "Cost Optimization: Reduced cloud operational costs by 30% through environment consolidation, scheduled resource cleanup, and migration to serverless AWS Lambda and Glue."
     ]
   },
   {
@@ -17,9 +18,9 @@ const companies = [
     locations: "Ernakulam, India",
     roles: "DevOps Engineer",
     contributions: [
-      "Implemented scalable applications on Azure and AWS",
-      "Developed CI/CD pipelines with Jenkins and Azure DevOps",
-      "Enhanced system reliability through container orchestration"
+      "Cloud Infrastructure & Deployment: Deployed and managed production and non-production environments in AWS and Azure, leveraging services like AKS and EKS for container orchestration.",
+      "CI/CD & Automation: Built and maintained CI/CD pipelines using Azure DevOps and Jenkins; automated infrastructure provisioning with Terraform and Azure ARM templates.",
+      "Serverless & Database Management: Deployed serverless applications using the Serverless Framework on AWS; administered PostgreSQL and MySQL databases for high availability and performance."
     ]
   }
 ];
