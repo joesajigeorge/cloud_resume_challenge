@@ -6,7 +6,7 @@ This project showcases my experience, skills, certifications, and projects as a 
 ---
 
 ## Project Structure
-
+```
 my-portfolio/
 ├── public/
 │   ├── profile.jpg        # Profile picture and other static assets
@@ -27,7 +27,7 @@ my-portfolio/
 ├── index.html             # HTML template used by Vite
 ├── package.json           # Project metadata and scripts
 └── README.md              # Project documentation
-
+```
 ---
 
 ## 📬 Contact
@@ -37,7 +37,7 @@ my-portfolio/
 - **GitHub:** [github.com/joesajigeorge](https://github.com/joesajigeorge)
 ---
 
-*Last updated: 06 July 2025 20:02 AEDT*
+*Last updated: 13 August 2025 00:55 AEDT*
 ---
 
 **Inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) and community projects.**
