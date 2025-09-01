@@ -37,7 +37,7 @@ my-portfolio/
 - **GitHub:** [github.com/joesajigeorge](https://github.com/joesajigeorge)
 ---
 
-*Last updated: 13 August 2025 01:03 AEDT*
+*Last updated: 2 September 2025 00:08 AEDT*
 ---
 
 **Inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) and community projects.**
