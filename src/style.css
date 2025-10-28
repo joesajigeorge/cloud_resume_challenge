@@ -21,15 +21,15 @@ body {
 
 .container {
   display: flex;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   min-height: 100vh;
 }
 
 .sidebar {
-  width: 300px;
+  width: 340px;
   background: white;
-  padding: 30px 20px;
+  padding: 38px 26px;
   box-shadow: var(--card-shadow);
   position: sticky;
   top: 0;
@@ -90,16 +90,16 @@ body {
 
 .content {
   flex: 1;
-  padding: 40px;
+  padding: 52px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 38px;
 }
 
 .card {
   background: white;
   border-radius: 10px;
-  padding: 30px;
+  padding: 38px;
   box-shadow: var(--card-shadow);
 }
 
@@ -386,4 +386,65 @@ li {
     grid-template-columns: 1fr;
   }
 }
+
+/* Projects / Blog styles */
+.projects {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.projects h1 {
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin-bottom: 1.2rem;
+}
+.post {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.06);
+}
+.post h2 {
+  margin-bottom: 0.4rem;
+  color: #0d47a1;
+}
+.post small {
+  color: #666;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.post p {
+  color: #333;
+  margin-bottom: 0.8rem;
+}
+.post a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.post a:hover { text-decoration: underline; }
+
+.post section {
+  margin: 0.2em 0  2em;
+}
+
+.post ul {
+  margin: 0.2em 0 0.2em 2em;
+}
+
+.post pre {
+  margin: 0.2em 0 0.2em 3em;
+}
+
+/* Table of contents for project pages */
+.toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.toc-list li a {
+  text-decoration: none;
+  color: #0d47a1;
+}
+.toc-list li a:hover { text-decoration: underline; }
+
+
 

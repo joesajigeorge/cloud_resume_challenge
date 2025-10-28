@@ -1,5 +1,6 @@
 import React from "react";
-import { FaUser, FaTools, FaBuilding, FaCertificate, FaProjectDiagram, FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { FaUser, FaTools, FaBuilding, FaCertificate, FaProjectDiagram, FaEnvelope, FaLinkedin, FaGithub, FaBook } from "react-icons/fa";
 
 const navLinks = [
   { href: "#about", label: "About", icon: <FaUser /> },
@@ -11,6 +12,23 @@ const navLinks = [
 ];
 
 export default function Sidebar() {
+  const handleHashNavigation = (e, href) => {
+    e.preventDefault();
+    const sectionId = href.replace('#', '');
+    
+    // If we're not on the homepage, navigate there first with the correct hash
+    if (window.location.pathname !== '/') {
+      window.location.href = `/${href}`;
+      return;
+    }
+    
+    // On homepage, scroll to the correct section
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <aside className="sidebar">
       <div className="profile-pic">
@@ -24,9 +42,17 @@ export default function Sidebar() {
         <ul>
           {navLinks.map(link => (
             <li key={link.href}>
-              <a href={link.href}>{link.icon} <span style={{marginLeft: '8px'}}>{link.label}</span></a>
+              <a 
+                href={link.href}
+                onClick={(e) => handleHashNavigation(e, link.href)}
+              >
+                {link.icon} <span style={{marginLeft: '8px'}}>{link.label}</span>
+              </a>
             </li>
           ))}
+          <li>
+            <Link to="/projects"> <FaBook /> <span style={{marginLeft: '8px'}}>Projects / Blog</span></Link>
+          </li>
         </ul>
       </nav>
       <div className="sidebar-social" style={{textAlign: 'center', marginTop: '20px'}}>
