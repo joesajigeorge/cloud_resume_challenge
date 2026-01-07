@@ -21,6 +21,12 @@ my-portfolio/
 │   │   ├── Certifications.jsx
 │   │   ├── Experience.jsx
 │   │   └── Contact.jsx
+│   ├── pages/
+|   │   ├── projects/
+|   │   │   ├── registry.js  # sample_project.jsx is referenced as slug in registry.js
+|   │   │   ├── sample_project.jsx   # The project content is written in HTML format
+│   │   ├── ProjectPage.jsx
+│   │   ├── Projects.jsx
 │   ├── App.jsx            # Main app component
 │   ├── main.jsx           # Entry point for React/Vite
 │   └── style.css          # Main stylesheet
@@ -37,7 +43,7 @@ my-portfolio/
 - **GitHub:** [github.com/joesajigeorge](https://github.com/joesajigeorge)
 ---
 
-*Last updated: 29 October 2025 00:43 AEDT*
+*Last updated: 7 January 2025 12:15 AEDT*
 ---
 
 **Inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) and community projects.**

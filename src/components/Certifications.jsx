@@ -27,7 +27,7 @@ const certifications = [
     icon: <FaSpinner className="spin" color="#888" />,
     title: "AWS Certified DevOps Engineer - Professional",
     issuer: "",
-    date: "In Progress (Target: 2025)",
+    date: "In Progress (Target: 2026)",
     inProgress: true,
   },
 ];
