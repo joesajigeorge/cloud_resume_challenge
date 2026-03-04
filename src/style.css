@@ -103,6 +103,11 @@ body {
   box-shadow: var(--card-shadow);
 }
 
+/* ensure blog posts under interests have spacing around their cards */
+.page.interests .card {
+  margin: 20px 0;
+}
+
 .card h2 {
   border-bottom: 2px solid var(--primary);
   padding-bottom: 10px;
@@ -427,7 +432,12 @@ li {
 }
 
 .post ul {
-  margin: 0.2em 0 0.2em 2em;
+  margin: 1.2em 0 1.2em 2.5em;
+  padding-left: 0.5em;
+}
+
+.post li {
+  margin-bottom: 0.6em;
 }
 
 .post pre {

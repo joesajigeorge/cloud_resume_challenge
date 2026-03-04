@@ -22,11 +22,16 @@ my-portfolio/
 │   │   ├── Experience.jsx
 │   │   └── Contact.jsx
 │   ├── pages/
-|   │   ├── projects/
-|   │   │   ├── registry.js          # sample_project.jsx is referenced as slug in registry.js
-|   │   │   ├── sample_project.jsx   # The project content is written in HTML format
+│   │   ├── projects/
+│   │   │   ├── registry.js          # Project registry with dynamic imports
+│   │   │   ├── sample_project.jsx   # Project content
+│   │   ├── interests/
+│   │   │   ├── registry.js          # Interest/blog registry with dynamic imports
+│   │   │   ├── sample_blog.jsx      # Blog post
 │   │   ├── ProjectPage.jsx
 │   │   ├── Projects.jsx
+│   │   ├── InterestPage.jsx
+│   │   └── Interests.jsx
 │   ├── App.jsx                      # Main app component
 │   ├── main.jsx                     # Entry point for React/Vite
 │   └── style.css                    # Main stylesheet

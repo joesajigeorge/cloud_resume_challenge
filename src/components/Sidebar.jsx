@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaUser, FaTools, FaBuilding, FaCertificate, FaProjectDiagram, FaEnvelope, FaLinkedin, FaGithub, FaBook } from "react-icons/fa";
+import { FaUser, FaTools, FaBuilding, FaCertificate, FaProjectDiagram, FaEnvelope, FaLinkedin, FaGithub, FaBook, FaHeart } from "react-icons/fa";
 
 const navLinks = [
   { href: "#about", label: "About", icon: <FaUser /> },
@@ -52,6 +52,9 @@ export default function Sidebar() {
           ))}
           <li>
             <Link to="/projects"> <FaBook /> <span style={{marginLeft: '8px'}}>Projects / Blog</span></Link>
+          </li>
+          <li>
+            <Link to="/interests"> <FaHeart /> <span style={{marginLeft: '8px'}}>Interests</span></Link>
           </li>
         </ul>
       </nav>
